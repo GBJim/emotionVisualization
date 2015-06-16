@@ -1,0 +1,2 @@
+module GoldenGlobeTweetsHelper
+end

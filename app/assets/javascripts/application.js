@@ -12,9 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require turbolinks
 //= require jquery-readyselector
 //= require d3
-//= require crossfilter
-//= require dc
+//= require crossfilter.min
+//= require dc.min
 //= require_tree .

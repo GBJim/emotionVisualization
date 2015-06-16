@@ -1,10 +1,11 @@
 # Place all the behaviors and hooks related to the matching controller here.
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
-$(".tweets.index").ready ->
+$(".golden_globe_tweets.index").ready ->
   renderLineChart(gon.daily_emotion)
   
-
+  renderPieChart(gon.daily_emotion_before, "pie-chart-before")
+  renderPieChart(gon.daily_emotion_after, "pie-chart-after")
   dc.renderAll()
 
 parseDate = d3.time.format("%Y-%m-%d").parse

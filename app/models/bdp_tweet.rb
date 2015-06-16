@@ -1,4 +1,5 @@
-class Tweet
+class BDPTweet
+
 	include Mongoid::Document
 	field :id, type: Integer
 	field :text, type: String
@@ -6,9 +7,6 @@ class Tweet
 	field :emotion, type: String
 	field :created_at, type: Time
 	field :lang, type: String
-	field :lon, type: Float
-	field :lat, type: Float
-	field :country_code, type:String
 
 	def self.emotion_count
 		map = %Q{

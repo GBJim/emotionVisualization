@@ -26,10 +26,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
 gem 'bson_ext'
 
-gem 'dcjs-rails'
-gem 'd3-rails'
-gem 'crossfilter-rails'
+
 gem 'gon'
+
+gem "twitter-bootstrap-rails"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  resources :tweets
+  resources :tweets, :golden_globe_tweets, :oscar_tweets
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'tweets#index'
+   root 'golden_globe_tweets#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
